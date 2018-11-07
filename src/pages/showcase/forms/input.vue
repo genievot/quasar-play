@@ -32,7 +32,7 @@
           Model: {{ lazy }}
         </q-chip>
       </span>
-      <q-input :value="lazy" @change="val => lazy = val" max-length="30" />
+      <q-input :value="lazy" @change="val => lazy = val" :max-length="30" />
 
       <div class="caption">Hide the underline</div>
       <q-input v-model="textUnderline" hide-underline />
